@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Beer.xsl"?>
+<BeerCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Beer.xsd">
+    <beer id = "ПОЛТ1">
+        <name>Диканські вечори</name>
+        <type>темне</type>
+        <al>true</al>
+        <manufacturer>Полтава-пиво</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод світлий</ingredients>
+        <ingredients>солод карамельний</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>8.5</strength>
+            <transparency>70</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">55</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>30</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>50</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ПОЛТ2">
+        <name>Кубанське</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Полтава-пиво</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод ячмінний</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>4.5</strength>
+            <transparency>90</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">35</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>30</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>50</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ПОЛТ3">
+        <name>Антон Грубі Бочкове</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Полтава-пиво</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод світлий</ingredients>
+        <ingredients>солод темний</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>4.6</strength>
+            <transparency>75</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">45</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>30</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>50</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ПОЛТ4">
+        <name>Жигулівське</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Полтава-пиво</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод світлий</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>4.4</strength>
+            <transparency>80</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">40</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>30</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>50</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ПОЛТ5">
+        <name>Діжка свіжого</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Полтава-пиво</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод світлий</ingredients>
+        <ingredients>мед</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>4.4</strength>
+            <transparency>70</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">105</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.42</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ОБЛН1">
+        <name>Carling</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Оболонь</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод світлий</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>4.0</strength>
+            <transparency>85</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">35</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.0</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>30</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ОБЛН2">
+        <name>Hike</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Оболонь</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод світлий</ingredients>
+        <ingredients>хміль</ingredients>
+        <ingredients>пивні дріжджі</ingredients>
+        <ingredients>мальтозний сироп</ingredients>
+        <chars>
+            <strength>4.8</strength>
+            <transparency>80</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">45</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ОБЛН3">
+        <name>Оболонь Міцне</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Оболонь</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод ячмінний</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>7.1</strength>
+            <transparency>80</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">60</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.0</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ОБЛН4">
+        <name>Оболонь Безалкогольне</name>
+        <type>світле</type>
+        <al>false</al>
+        <manufacturer>Оболонь</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод світлий</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <transparency>85</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">35</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>0.5</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ЧЕРН1">
+        <name>Чернігівське Світле</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Чернігівське</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод</ingredients>
+        <ingredients>крупа кукурудзяна</ingredients>
+        <ingredients>ячмінь</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>4.6</strength>
+            <transparency>75</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">50</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.0</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.2</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>2.0</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>2.5</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>30</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>50</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ЧЕРН2">
+        <name>Чернігівське Преміум</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Чернігівське</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод</ingredients>
+        <ingredients>крупа кукурудзяна</ingredients>
+        <ingredients>крупа рисова</ingredients>
+        <ingredients>дріжджі пивні</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>4.8</strength>
+            <transparency>85</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">40</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.0</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ЧЕРН3">
+        <name>Чернігівське Міцне</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Чернігівське</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод</ingredients>
+        <ingredients>крупа кукурудзяна</ingredients>
+        <ingredients>ячмінь</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>7.3</strength>
+            <transparency>70</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">50</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>1.0</volume>
+            </packaging>
+            <packaging>
+                <material>PET</material>
+                <volume>2.0</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ЧЕРН4">
+        <name>Чернігівське Максимум</name>
+        <type>світле</type>
+        <al>true</al>
+        <manufacturer>Чернігівське</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>ячмінний солод</ingredients>
+        <ingredients>сироп глюкозно-фруктозний</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <strength>9.8</strength>
+            <transparency>85</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">55</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ЧЕРН5">
+        <name>Чернігівське Безалкогольне</name>
+        <type>світле</type>
+        <al>false</al>
+        <manufacturer>Чернігівське</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод ячмінний</ingredients>
+        <ingredients>крупа кукурудзяна</ingredients>
+        <ingredients>хміль</ingredients>
+        <chars>
+            <transparency>85</transparency>
+            <filtered>true</filtered>
+            <energy unit = "kcal">30</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>0.5</volume>
+            </packaging>
+        </chars>
+    </beer>
+    <beer id = "ЧЕРН6">
+        <name>Чернігівське Біла Ніч</name>
+        <type>темне</type>
+        <al>true</al>
+        <manufacturer>Чернігівське</manufacturer>
+        <ingredients>вода</ingredients>
+        <ingredients>солод</ingredients>
+        <ingredients>пшениця</ingredients>
+        <ingredients>барвник карамельний</ingredients>
+        <ingredients>дріжджі пивні</ingredients>
+        <ingredients>сироп глюкозно-фруктозний</ingredients>
+        <ingredients>хміль</ingredients>
+        <ingredients>стабілізатор пектин яблучний</ingredients>
+        <ingredients>коріандр</ingredients>
+        <chars>
+            <strength>4.8</strength>
+            <transparency>85</transparency>
+            <filtered>false</filtered>
+            <energy unit = "kcal">85</energy>
+            <packaging>
+                <material>glass</material>
+                <volume>0.5</volume>
+            </packaging>
+            <packaging>
+                <material>alu</material>
+                <volume>30</volume>
+            </packaging>
+        </chars>
+    </beer>
+</BeerCollection>

@@ -1,0 +1,8 @@
+/build
+/dist
+/nbproject
+/output
+build.xml
+/catalog
+manifest.mf
+catalog.xml

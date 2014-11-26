@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="BeerCollection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="beer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="beer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="type">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="темне"/>
+              <xs:enumeration value="світле"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="al" type="xs:boolean"/>
+        <xs:element name="manufacturer" type="xs:string"/>
+        <xs:element name="ingredients" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element ref="chars"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="chars">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="strength" minOccurs="0">
+          <xs:simpleType>
+            <xs:restriction base="xs:float">
+              <xs:minInclusive value="0.5"/>
+              <xs:maxInclusive value="20"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="transparency" type="xs:float"/>
+        <xs:element name="filtered" type="xs:boolean"/>
+        <xs:element name="energy">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:float">
+                <xs:attribute name="unit" use="optional" fixed="kcal" type="xs:NCName"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" ref="packaging"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="packaging">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="material">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="glass"/>
+              <xs:enumeration value="PET"/>
+              <xs:enumeration value="alu"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="volume" type="xs:float"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
